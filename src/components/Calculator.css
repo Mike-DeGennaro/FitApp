@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  margin: 1% 25% 5%;
+  box-shadow: 0 0.1px 600px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: 'Signika', sans-serif;
+  min-width: 300px;
+}
+
+#label {
+  position: relative;
+  float: left;
+}
+
+#a {
+  position: relative;
+  width: 95%;
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+#b {
+  position: relative;
+  float: left;
+}
+#ba {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+}
+#gen {
+  position: relative;
+  float: left;
+  left: 3%;
+  bottom: 3px;
+}
+
+#sub {
+  position: relative;
+  top: 0px;
+  padding: 10px 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 40px 40px 40px 40px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+#sub:hover {
+  background: #fff;
+  color: black;
+  transform: translateY(-5px);
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+}

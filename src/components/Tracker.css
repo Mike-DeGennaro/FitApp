@@ -1,0 +1,74 @@
+.container {
+  box-shadow: 0 0.1px 600px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: 'Signika', sans-serif;
+  word-wrap: break-word;
+  min-width: 300px;
+  margin: auto;
+}
+.note {
+  list-style-type: none;
+}
+
+.listItem {
+  position: relative;
+}
+
+.button {
+  float: left;
+  position: relative;
+
+  top: 0px;
+  padding: 5px 5px;
+  background: transparent;
+  border: 1px solid white;
+  color: #dc143c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: white;
+  color: #dc143c;
+}
+
+.addButton {
+  position: relative;
+  left: 10px;
+  top: 0px;
+  padding: 10px 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 40px 40px 40px 40px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.addButton:hover {
+  background: #fff;
+  color: black;
+  transform: translateY(-5px);
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  color: white;
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  transition: border 650ms ease-in-out;
+  transition: border 650ms;
+}
+.input:hover {
+  border-color: black;
+  transition: all 650ms;
+}

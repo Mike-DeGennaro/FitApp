@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+.whole {
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+.dataP {
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 10%;
+  padding: 0px 0px 5% 0px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 20px;
+  border-color: transparent;
+}
+
+.del-btn {
+  background-color: transparent;
+  border-color: transparent;
+  color: #dc143c;
+  width: 100%;
+  height: 40px;
+}
+
+*:focus {
+  outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+th {
+  color: white;
+  font-weight: bold;
+}
+td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before {
+    content: 'Excercise';
+  }
+  td:nth-of-type(2):before {
+    content: 'Sets';
+  }
+  td:nth-of-type(3):before {
+    content: 'Reps';
+  }
+  td:nth-of-type(4):before {
+    content: 'Weight';
+  }
+  td:nth-of-type(5):before {
+    content: '';
+  }
+}
+
+.addBtn {
+  position: relative;
+  top: 10px;
+  padding: 20px 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 40px 5px 5px 40px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+#otherBtn {
+  border-radius: 5px 40px 40px 5px;
+}
+
+.addBtn:hover {
+  transform: translateY(5px);
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: black;
+}
